@@ -9,6 +9,8 @@ In our project, an exponential backoff algorithm is implemented to control the n
 
 Run the below command to start the application, this opens the Initial Node.
 > java  -jar .\GossipProtoApp.jar -hostname 'Provide-your-IPAddress' -port 8080
+
 Run the below command to start the other nodes.
 > java  -jar .\GossipProtoApp.jar -hostname 'Provide-your-IPAddress' -port 8081 8080
+
 > java  -jar .\GossipProtoApp.jar -hostname 'Provide-your-IPAddress' -port 8082 8081
