@@ -7,6 +7,9 @@ In our project, pull gossip is implemented to maintain the consistency of delive
 ### Exponential Backoff Algorithm
 In our project, an exponential backoff algorithm is implemented to control the network congestion happening when gossip protocol is used to send messages. Exponential Backoff Algorithm controls the network traffic by not sending the same message to random nodes when a node gets the same message multiple times.
 
+Run the below command to create jar file for the application (requirement maven)
+> mvn clean install
+
 Run the below command to start the application, this opens the Initial Node.
 > java  -jar .\GossipProtoApp.jar -hostname 'Provide-your-IPAddress' -port 8080
 
